@@ -1,0 +1,4 @@
+cookbook 'yum', :locked_version => '2.2.0'
+cookbook 'nodejs', :git => 'https://github.com/mdxp/nodejs-cookbook.git', :ref => '164383284398f6905dd9d5acd648c6daeec25cb9'
+cookbook 'build-essential', :locked_version => '1.3.4'
+cookbook 'apt', :locked_version => '1.9.0'
