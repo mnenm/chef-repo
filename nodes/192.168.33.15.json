@@ -7,6 +7,7 @@
     "recipe[vim]",
     "recipe[yum::epel]",
     "recipe[nginx]",
-    "recipe[nodejs]"
+    "recipe[nodejs]",
+    "recipe[iptables]"
   ]
 }
