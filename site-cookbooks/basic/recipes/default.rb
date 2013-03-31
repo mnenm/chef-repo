@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-%w{zsh gcc make readline-devel}.each do |pkg|
+%w{git zsh gcc make readline-devel}.each do |pkg|
   package pkg do
     action :install
   end
