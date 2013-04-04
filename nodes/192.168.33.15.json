@@ -2,6 +2,9 @@
   "nginx": {
     "port": 80
   },
+  "hadoop": {
+    "version": "1.0.4"
+  },
   "run_list": [
     "recipe[basic]",
     "recipe[vim]",
@@ -10,6 +13,7 @@
     "recipe[nodejs]",
     "recipe[iptables]",
     "recipe[maven]",
-    "recipe[mahout]"
+    "recipe[mahout]",
+    "recipe[hadoop]"
   ]
 }
