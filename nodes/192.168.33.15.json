@@ -9,6 +9,7 @@
     "recipe[nginx]",
     "recipe[nodejs]",
     "recipe[iptables]",
-    "recipe[maven]"
+    "recipe[maven]",
+    "recipe[mahout]"
   ]
 }
