@@ -2,12 +2,13 @@
   "nginx": {
     "port": 80
   },
-  "run_list":[
+  "run_list": [
     "recipe[basic]",
     "recipe[vim]",
     "recipe[yum::epel]",
     "recipe[nginx]",
     "recipe[nodejs]",
-    "recipe[iptables]"
+    "recipe[iptables]",
+    "recipe[maven]"
   ]
 }
