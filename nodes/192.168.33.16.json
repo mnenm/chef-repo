@@ -1,0 +1,17 @@
+{
+  "hadoop": {
+    "version": "1.0.4"
+  },
+  "solr": {
+    "version": "3.6.2"
+  },
+  "run_list": [
+    "recipe[basic]",
+    "recipe[vim]",
+    "recipe[yum::epel]",
+    "recipe[maven]",
+    "recipe[mahout]",
+    "recipe[hadoop]",
+    "recipe[solr]"
+  ]
+}
